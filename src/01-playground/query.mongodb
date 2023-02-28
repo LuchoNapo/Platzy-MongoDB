@@ -1,0 +1,5 @@
+use("sample_analytics");
+
+//Query
+//db(palabra reservada) + (collection a seleccionar "accounts" + find para buscar)
+db.accounts.find({limit : 9000}).count();
