@@ -1,0 +1,5 @@
+use("platzi_store");
+
+//Query
+//db(palabra reservada) + (collection a seleccionar "accounts" + find para buscar)
+db.products.find();
